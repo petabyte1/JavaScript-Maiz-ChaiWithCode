@@ -42,3 +42,36 @@ const myFunction = function(){
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
+//Stack(Primitive)  and Heap(Non-Primitive)
+
+let myname = "Maiz"
+
+let anothername = myname
+ 
+ anothername = "Gudda"
+ 
+ console.log(anothername);
+ console.log(myname);
+ 
+
+ let user = {
+
+ email:"maiz@google.com",
+ StudentId:"2412d"
+
+ }
+
+ let anotheruser = user 
+ 
+ anotheruser.email = "gudda@google.com"
+ console.log(anotheruser.email);
+ console.log(user.email);
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ //node 01_basic/DatatypesSummary.js
